@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/action_home"
+        android:icon="@drawable/instagram_home_filled_24"
+        android:title="@string/title_home"
+        />
+    <item
+        android:id="@+id/discovery"
+        android:icon="@drawable/ufi_comment"
+        android:title="@string/title_discovery" />
+    <item
+        android:id="@+id/app_icon"
+        android:enabled="false"
+        android:icon="@drawable/coders_u_icon"
+        android:title="@null" />
+    <item
+        android:id="@+id/inbox"
+        android:icon="@drawable/direct"
+        android:title="@string/title_inbox" />
+
+    <item
+        android:id="@+id/action_profile"
+        android:icon="@drawable/instagram_user_filled_24"
+        android:title="@string/title_me" />
+
+</menu>

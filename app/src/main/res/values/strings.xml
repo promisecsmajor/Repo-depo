@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Repo Depo</string>
+    <string name="back4app_server_url">https://parseapi.back4app.com/</string>
+    <string name="title_home">Home</string>
+    <string name="title_discovery">Discover</string>
+    <string name="title_add">Add</string>
+    <string name="title_inbox">Inbox</string>
+    <string name="title_me">Profile</string>
+
+    <!-- Change BOTH strings as required -->
+    <string name="back4app_app_id">JqA2slKE5xdE69NVjzgpmmPyfyv8ja5Qw88zptuA</string>
+    <string name="back4app_client_key">m3utFqWwr4yPHvbBRxHzEKGMYVquPbopOTfD73nh</string>
+    <string name="com_auth0_client_id">CK0xVKsuIDGk9Yjx8B2UEukc7J0rMj5g</string>
+    <string name="com_auth0_domain">dev-4nse3y34.us.auth0.com</string>
+    <string name="login">Log in</string>
+    <string name="logout">Log out</string>
+
+    <string name="test_story_description">This is a test video #Covid19 #corona #demo #content</string>
+    <string name="test_user_pic_url"><![CDATA[https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&dl=albert-dera-ILip77SbmOE-unsplash.jpg&w=640]]></string>
+    <string name="share">Share</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

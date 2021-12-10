@@ -1,0 +1,64 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    compileSdk 31
+
+    defaultConfig {
+        applicationId "com.codepath.repo_depo"
+        minSdk 21
+        targetSdk 31
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        manifestPlaceholders = [auth0Domain: "@string/com_auth0_domain", auth0Scheme: "demo"]
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
+
+dependencies {
+
+    implementation 'androidx.appcompat:appcompat:1.3.1'
+    implementation 'com.google.android.material:material:1.4.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.1'
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    implementation 'androidx.mediarouter:mediarouter:1.2.5'
+    testImplementation 'junit:junit:4.+'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.3'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
+
+    implementation 'com.squareup.okhttp3:logging-interceptor:3.8.1'
+
+    implementation 'com.auth0.android:auth0:2.+'
+    implementation 'com.github.bumptech.glide:glide:4.12.0'
+    // Glide v4 uses this new annotation processor -- see https://bumptech.github.io/glide/doc/generatedapi.html
+    annotationProcessor 'com.github.bumptech.glide:compiler:4.12.0'
+    implementation 'com.codepath.libraries:asynchttpclient:2.2.0'
+    implementation 'org.scribe:scribe:1.3.5'
+
+    implementation 'com.codepath.libraries:android-oauth-handler:2.4.0'
+    implementation 'commons-codec:commons-codec:1.10'
+    implementation 'androidx.appcompat:appcompat:1.3.0'
+    // Glide for remote image loading
+    implementation 'com.github.bumptech.glide:glide:4.11.0'
+    implementation 'com.google.android.material:material:1.4.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.0'
+    // Room for simple persistence with an ORM
+    def room_version = "2.3.0"
+    implementation "androidx.room:room-runtime:$room_version"
+    annotationProcessor "androidx.room:room-compiler:$room_version"
+    implementation 'com.facebook.stetho:stetho:1.5.1'
+    implementation 'androidx.swiperefreshlayout:swiperefreshlayout:1.0.0'
+}
