@@ -61,8 +61,6 @@ Original App Design Project - README Template
 
 ### 2. Screen Archetypes
 
-* <img src="login.jpg" width="500" height="500">
-
    * Login
       * User can login
       * User can register account
@@ -70,7 +68,6 @@ Original App Design Project - README Template
       * User can login to account 
 
 
-* <img src="home.jpg" width="500" height="500">
 
    * Home
       * User can view repositories  
@@ -106,17 +103,10 @@ Original App Design Project - README Template
    * Home
    * Profile
 
-
-
 ## Wireframes
 
-<img src="map_screen.jpg" width="500" height="500">
-
-### [BONUS] Digital Wireframes & Mockups
-### [BONUS] Interactive Prototype
-
 ## Schema 
-[This section will be completed in Unit 9]
+
 ### Models
 
 ## Networking
